@@ -1,0 +1,70 @@
+.App{
+  min-height: 100vh;
+  background-color: #232c30;
+}
+
+.nav-wrapper {
+  min-height: 12vh;
+  display: flex;
+  background-color: #39a5da;
+  align-items: center;
+  color: #232c30;
+}
+
+.nav-wrapper > h3 {
+  margin-left: 1vw;
+}
+
+.card-wrapper{
+  display: flex;
+  margin: 4vw;
+  height: 63vh;
+  background-color: #ebebeb;
+  position: relative;
+}
+
+.index {
+  margin-top: 5px;
+  margin-left: auto;
+  padding-right: 15px;
+  order: 2;
+}
+
+.content-wrapper{
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+
+.content-wrapper h1{
+  display: inline-block;
+  line-height: 1;
+  border-bottom: 2px solid #39a5da;
+  line-height:0.95;
+  
+}
+
+.buttons-wrapper{
+  position: absolute;
+  top: 110%;
+  width: 100%;
+}
+
+.position-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.position-wrapper a{
+  color: white;
+}
+
+.position-wrapper button{
+  width: 5vw;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: #39a5da;
+  color:white;
+  font-size: 15px;
+  font-weight: 900;
+}
